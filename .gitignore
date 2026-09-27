@@ -1,0 +1,9 @@
+/target
+**/*.rs.bk
+*.mp4
+*.png
+.DS_Store
+*.swp
+.idea
+.vscode
+Cargo.lock
