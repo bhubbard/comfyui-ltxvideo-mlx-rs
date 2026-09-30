@@ -18,6 +18,7 @@ impl Default for LoopingConfig {
     }
 }
 
+#[derive(Debug, Clone, Default)]
 pub struct LoopingSampler {
     pub config: LoopingConfig,
 }

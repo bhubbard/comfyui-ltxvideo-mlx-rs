@@ -21,6 +21,7 @@ impl Default for TiledVaeConfig {
     }
 }
 
+#[derive(Debug, Clone, Default)]
 pub struct TiledVaeDecoder {
     pub config: TiledVaeConfig,
 }

@@ -30,6 +30,7 @@ impl Default for TwoStageConfig {
     }
 }
 
+#[derive(Debug, Clone, Default)]
 pub struct TwoStageSampler {
     pub config: TwoStageConfig,
 }
@@ -99,6 +100,7 @@ impl TwoStageSampler {
     }
 }
 
+#[derive(Debug, Clone, PartialEq)]
 pub struct SamplingResult {
     pub latents: Vec<f32>,
     pub elapsed_sec: f32,

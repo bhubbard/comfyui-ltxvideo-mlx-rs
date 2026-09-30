@@ -15,6 +15,7 @@ impl Default for APGConfig {
     }
 }
 
+#[derive(Debug, Clone, Copy, PartialEq, Eq, Default)]
 pub struct AdaptiveProjectedGuidance;
 
 impl AdaptiveProjectedGuidance {

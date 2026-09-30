@@ -21,6 +21,7 @@ impl Default for STGConfig {
     }
 }
 
+#[derive(Debug, Clone)]
 pub struct SpatioTemporalGuidance {
     pub config: STGConfig,
     running_average: Vec<f32>,

@@ -17,6 +17,7 @@ impl Default for TeaCacheConfig {
     }
 }
 
+#[derive(Debug, Clone)]
 pub struct TeaCacheState {
     pub config: TeaCacheConfig,
     pub cached_activations: Option<Vec<f32>>,

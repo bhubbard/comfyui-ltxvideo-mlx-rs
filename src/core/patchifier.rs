@@ -1,5 +1,6 @@
 use crate::error::Result;
 
+#[derive(Debug, Clone, Copy, PartialEq, Eq)]
 pub struct VideoLatentPatchifier {
     pub spatial_patch_size: usize,
     pub temporal_patch_size: usize,
@@ -33,6 +34,7 @@ impl VideoLatentPatchifier {
     }
 }
 
+#[derive(Debug, Clone, Copy, PartialEq, Eq, Default)]
 pub struct AudioPatchifier;
 
 impl AudioPatchifier {
